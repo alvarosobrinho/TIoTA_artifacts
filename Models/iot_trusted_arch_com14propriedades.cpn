@@ -33589,76 +33589,6 @@ val myASKCTLformula =  NOT(EXIST_UNTIL(NF(&quot;SameMeasure&quot;, sameMeasure),
 eval_node myASKCTLformula 66;</text>
       </Aux>
     </page>
-    <page id="ID1506535880">
-      <pageattr name="Tests"/>
-      <constraints/>
-      <Aux id="ID1506536007">
-        <posattr x="-365.000000"
-                 y="272.000000"/>
-        <fillattr colour="White"
-                  pattern=""
-                  filled="false"/>
-        <lineattr colour="Black"
-                  thick="1"
-                  type="Solid"/>
-        <textattr colour="Black"
-                  bold="false"/>
-        <label/>
-        <text>use &quot;newCPN.sml&quot;;
-use &quot;valGraphCPN.sml&quot;;
-use &quot;valFinalStateCPN.sml&quot;;
-
-
-val AllPaths = GetAllPaths(graph,1,finalState);
-val numAllPaths = length(AllPaths);
-
-
-use &quot;writeFileCPN.sml&quot;;
-
-(
-val s_AllPaths = convertIntListList(AllPaths);
-val s_numAllPaths = Int.toString numAllPaths;
-
-
-writeFile &quot;results_AllPaths.txt&quot; s_AllPaths;
-writeFile &quot;results_numAllPaths.txt&quot; s_numAllPaths;</text>
-      </Aux>
-      <Aux id="ID1506540735">
-        <posattr x="-781.000000"
-                 y="388.000000"/>
-        <fillattr colour="White"
-                  pattern=""
-                  filled="false"/>
-        <lineattr colour="Black"
-                  thick="1"
-                  type="Solid"/>
-        <textattr colour="Black"
-                  bold="false"/>
-        <label/>
-        <text>use &quot;newCPN.sml&quot;;
-use &quot;valGraphCPN.sml&quot;;
-</text>
-      </Aux>
-      <Aux id="ID1506552784">
-        <posattr x="-766.000000"
-                 y="174.000000"/>
-        <fillattr colour="White"
-                  pattern=""
-                  filled="false"/>
-        <lineattr colour="Black"
-                  thick="1"
-                  type="Solid"/>
-        <textattr colour="Black"
-                  bold="false"/>
-        <label/>
-        <text>use &quot;newCPN.sml&quot;;
-use &quot;valGraphCPN.sml&quot;;
-
-
-val AllPaths = GetAllPaths(graph,1,[227]);
-val numAllPaths = length(AllPaths);</text>
-      </Aux>
-    </page>
     <group id="ID1413267930"
            name="Group 1"/>
     <instances>
@@ -33711,8 +33641,6 @@ val numAllPaths = length(AllPaths);</text>
                 page="ID1504662891"/>
       <instance id="ID1504762926"
                 page="ID1504762924"/>
-      <instance id="ID1506535882"
-                page="ID1506535880"/>
     </instances>
     <options>
       <option name="realtimestamp">
@@ -33733,31 +33661,6 @@ val numAllPaths = length(AllPaths);</text>
       <option name="outputdirectory">
         <value>
           <text>&lt;same as model&gt;</text>
-        </value>
-      </option>
-      <option name="extensions.10001.enable">
-        <value>
-          <boolean>true</boolean>
-        </value>
-      </option>
-      <option name="extensions.10006.enable">
-        <value>
-          <boolean>true</boolean>
-        </value>
-      </option>
-      <option name="extensions.10005.enable">
-        <value>
-          <boolean>true</boolean>
-        </value>
-      </option>
-      <option name="extensions.10003.enable">
-        <value>
-          <boolean>true</boolean>
-        </value>
-      </option>
-      <option name="extensions.10002.enable">
-        <value>
-          <boolean>true</boolean>
         </value>
       </option>
       <option name="repavg">
@@ -34083,111 +33986,11 @@ val numAllPaths = length(AllPaths);</text>
               <position value="0"/>
             </zorder>
           </cpnsheet>
-          <cpnsheet id="ID1506535939"
-                    panx="0.000000"
-                    pany="0.000000"
-                    zoom="1.000000"
-                    instance="ID1506535882">
-            <zorder>
-              <position value="1"/>
-              <position value="0"/>
-            </zorder>
-          </cpnsheet>
           <cpnsheet id="ID1506536404"
                     panx="233.000000"
                     pany="251.000000"
                     zoom="1.000000"
                     instance="ID1499075976">
-            <zorder>
-              <position value="1"/>
-              <position value="0"/>
-            </zorder>
-          </cpnsheet>
-          <cpnsheet id="ID1506536668"
-                    panx="196.000000"
-                    pany="27.000000"
-                    zoom="1.000000"
-                    instance="ID1506535882">
-            <zorder>
-              <position value="1"/>
-              <position value="0"/>
-            </zorder>
-          </cpnsheet>
-          <cpnsheet id="ID1506538715"
-                    panx="403.000000"
-                    pany="35.000000"
-                    zoom="1.000000"
-                    instance="ID1506535882">
-            <zorder>
-              <position value="1"/>
-              <position value="0"/>
-            </zorder>
-          </cpnsheet>
-          <cpnsheet id="ID1506540682"
-                    panx="403.000000"
-                    pany="35.000000"
-                    zoom="1.000000"
-                    instance="ID1506535882">
-            <zorder>
-              <position value="1"/>
-              <position value="0"/>
-            </zorder>
-          </cpnsheet>
-          <cpnsheet id="ID1506542736"
-                    panx="432.000000"
-                    pany="154.000000"
-                    zoom="1.000000"
-                    instance="ID1506535882">
-            <zorder>
-              <position value="1"/>
-              <position value="0"/>
-            </zorder>
-          </cpnsheet>
-          <cpnsheet id="ID1506544784"
-                    panx="422.000000"
-                    pany="216.000000"
-                    zoom="1.000000"
-                    instance="ID1506535882">
-            <zorder>
-              <position value="1"/>
-              <position value="0"/>
-            </zorder>
-          </cpnsheet>
-          <cpnsheet id="ID1506546777"
-                    panx="432.000000"
-                    pany="216.000000"
-                    zoom="1.000000"
-                    instance="ID1506535882">
-            <zorder>
-              <position value="1"/>
-              <position value="0"/>
-            </zorder>
-          </cpnsheet>
-          <cpnsheet id="ID1506548781"
-                    panx="416.000000"
-                    pany="216.000000"
-                    zoom="1.000000"
-                    instance="ID1506535882">
-            <zorder>
-              <position value="1"/>
-              <position value="0"/>
-            </zorder>
-          </cpnsheet>
-          <cpnsheet id="ID1506550792"
-                    panx="413.000000"
-                    pany="216.000000"
-                    zoom="1.000000"
-                    instance="ID1506535882">
-            <zorder>
-              <position value="1"/>
-              <position value="0"/>
-            </zorder>
-          </cpnsheet>
-          <cpnsheet id="ID1506552838"
-                    panx="413.000000"
-                    pany="216.000000"
-                    zoom="1.000000"
-                    instance="ID1506535882">
             <zorder>
               <position value="1"/>
               <position value="0"/>
@@ -34202,22 +34005,12 @@ val numAllPaths = length(AllPaths);</text>
           <position value="4"/>
           <position value="5"/>
           <position value="7"/>
-          <position value="12"/>
-          <position value="14"/>
           <position value="11"/>
-          <position value="15"/>
           <position value="8"/>
-          <position value="13"/>
-          <position value="16"/>
+          <position value="12"/>
           <position value="6"/>
           <position value="10"/>
           <position value="9"/>
-          <position value="17"/>
-          <position value="18"/>
-          <position value="19"/>
-          <position value="20"/>
-          <position value="21"/>
-          <position value="22"/>
         </zorder>
       </cpnbinder>
     </binders>
@@ -34279,13 +34072,6 @@ val numAllPaths = length(AllPaths);</text>
             <IndexNode expanded="false"/>
           </IndexNode>
         </IndexNode>
-        <IndexNode expanded="false">
-          <IndexNode expanded="false"/>
-          <IndexNode expanded="false"/>
-          <IndexNode expanded="false"/>
-          <IndexNode expanded="false"/>
-          <IndexNode expanded="false"/>
-        </IndexNode>
       </IndexNode>
       <IndexNode expanded="false"/>
       <IndexNode expanded="false">
@@ -34389,8 +34175,6 @@ val numAllPaths = length(AllPaths);</text>
         <IndexNode expanded="true"/>
         <IndexNode expanded="true"/>
       </IndexNode>
-      <IndexNode expanded="true"/>
-      <IndexNode expanded="true"/>
       <IndexNode expanded="true"/>
       <IndexNode expanded="true"/>
       <IndexNode expanded="true"/>
