@@ -1,0 +1,16 @@
+<Test TestName="Test_1">
+  <TestCase CaseID="1">
+    <TestValues>
+      <Credential>
+        <Value>1</Value>
+        <Value>certificate_1</Value>
+      </Credential>
+    </TestValues>
+    <TestOracles>
+        <Authentication>
+          <DecisionValue>True</DecisionValue>
+        </Authentication>
+    </TestOracles>
+  </TestCase>
+</Test>
+
