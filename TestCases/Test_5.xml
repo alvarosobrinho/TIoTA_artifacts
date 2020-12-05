@@ -7,10 +7,6 @@
     </TestValues>
     <TestOracles>
         <Subscribed>
-          <Consumer>1</Consumer>
-          <Producer>10000</Producer>
-        </Subscribed>
-        <Subscribed>
           <Consumer>10</Consumer>
           <Producer>1</Producer>
         </Subscribed>

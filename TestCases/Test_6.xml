@@ -1,0 +1,15 @@
+<Test TestName="Test_6">
+  <TestCase CaseID="1>
+    <TestValues>
+      <Encrypted>
+        <Data>10000</Data>
+      </Encrypted>
+    </TestValues>
+    <TestOracles>
+        <Published>
+          <Producer>1</Producer>
+          <Data>10000</Data>
+        </Published>
+    </TestOracles>
+  </TestCase>
+</Test>
