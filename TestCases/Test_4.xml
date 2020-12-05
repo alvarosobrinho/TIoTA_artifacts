@@ -1,0 +1,14 @@
+<Test TestName="Test_4">
+  <TestCase CaseID="1">
+    <TestValues>
+      <Authenticated>
+        <Value>valid_token_10</Value>
+      </Authenticated>
+    </TestValues>
+    <TestOracles>
+        <Authorized>
+          <PrivateKey>priv_key</PrivateKey>
+        </Authorized>
+    </TestOracles>
+  </TestCase>
+</Test>
