@@ -1,0 +1,19 @@
+<Test TestName="Test_5">
+  <TestCase CaseID="1>
+    <TestValues>
+      <Authorized>
+        <PrivateKey>priv_key</PrivateKey>
+      </Authorized>
+    </TestValues>
+    <TestOracles>
+        <Subscribed>
+          <Consumer>1</Consumer>
+          <Producer>10000</Producer>
+        </Subscribed>
+        <Subscribed>
+          <Consumer>10</Consumer>
+          <Producer>1</Producer>
+        </Subscribed>
+    </TestOracles>
+  </TestCase>
+</Test>
