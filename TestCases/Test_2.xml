@@ -1,0 +1,14 @@
+<Test TestName="Test2">
+  <TestCase CaseID="1">
+    <TestValues>
+      <Publish>
+        <Value>100</Value>
+      </Publish>
+    </TestValues>
+    <TestOracles>
+        <Receive>
+        <Value>10000</Value>
+        </Receive>
+    </TestOracles>
+  </TestCase>
+</Test>
